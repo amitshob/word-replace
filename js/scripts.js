@@ -17,14 +17,14 @@ var wordCount = function(temp,word) {
 
 
  $(document).ready(function() {
-   $("form#count-up").submit(function(event) {
+   $("form#word-replace").submit(function(event) {
      var string_input = parse($("input#string_input").val())
      var word_input = parse($("input#word_input").val())
      var word_input = parse($("input#word_input").val())
      var result = wordReplace(string_input,word_input,word_replace)
 
 
-     $("#all-numbers").text(result)
+     $("#new-string").text(result)
      $("#result").show()
 
      event.preventDefault()
