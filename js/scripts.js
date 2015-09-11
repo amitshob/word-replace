@@ -18,9 +18,9 @@ var wordCount = function(temp,word) {
 
  $(document).ready(function() {
    $("form#word-replace").submit(function(event) {
-     var string_input = parse($("input#string_input").val())
-     var word_input = parse($("input#word_input").val())
-     var word_input = parse($("input#word_input").val())
+     var string_input = $("input#string_input").val()
+     var word_input = $("input#word_input").val()
+     var word_input = $("input#word_input").val()
      var result = wordReplace(string_input,word_input,word_replace)
 
 
