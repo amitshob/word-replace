@@ -1,7 +1,7 @@
 #Word Replace
 By Amit Mhatre
 
-**Descripton**
+**Description**
 
 This website lets you replace words in a string.
 
