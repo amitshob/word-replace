@@ -1,13 +1,12 @@
 //
 
 var wordCount = function(string_input,word_input) {
-  var word_whole = " "+word+" ";
-  var count = (temp.match(/\bword_whole\g) || []).length;
-  // debugger;
+  var word_whole = " "+word_input+" ";
+  var count = (string_input.match(RegExp(word_whole,"g") || []).length;
   return count;
 };
  var wordReplace = function(string_input,word_input,word_replace) {
-   var modifiedString = string_input.replace(/word_input/g,word_replace);
+   var modifiedString = string_input.replace(RegExp(word_input,"g"),word_replace);
    return modifiedString;
 };
 
