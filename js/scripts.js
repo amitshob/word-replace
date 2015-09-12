@@ -2,7 +2,7 @@
 
 var wordCount = function(string_input,word_input) {
   var word_whole = " "+word_input+" ";
-  var count = (string_input.match(RegExp(word_whole,"g") || []).length;
+  var count = (string_input.match(word_whole) || []).length;
   return count;
 };
  var wordReplace = function(string_input,word_input,word_replace) {
